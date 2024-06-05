@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 3 HW</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    
+
+<link rel="stylesheet" href="css/main.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+    <body>
+        <nav>
+            <div class="TopNav">
+                <a href="index.html"><img src="assets/logo.jpg" height="55px"></a>
+                <ul div class="TopNavRight">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    
+                </ul>
+               <div class="SearchContainer">
+               <img src="assets/search.svg" height="25px"/>
+               <input placeholder="Search"/>
+               <img src="assets/bag.svg" height="25px"/>
+               </div>
+            </div>
+            </div>
+        </nav>
+    
+    
+        <header class="HeaderContainer">
+            
+        
+        </header>
+    
+        <section class="FeaturedTrip">
+            <div class="LeftImage">
+                <img src="assets/Kits-Web-Banner.jpg"/>
+            </div>
+    
+        
+        </section>
+    
+        <section class="OurShuttles">
+            <div class="LeftImage">
+                <img src="assets/large-serum.jpg" height="90%"/>
+            </div>
+    
+            <div class="RightContentTwo">
+                <h4>OUR SERUM</h4>
+                <h2>NOURISHING PREP SERUM</h2>
+                <p>POSTED BY CREATIVE GLAMOURAUG 08TH, 2023PRODUCT LAUNCH<br/>
+                    Did you know that your skin is your largest organ? Consisting of 3 different layers, millions of cells, and repairing itself every 28 days. We take care of our other organs by eating balanced diets, drinking water, and exercising, but why is it that sometimes our skin is merely an afterthought? When it's the only organ everyone else sees. Should it not be one of the most important?</p>
+    
+    
+                
+            
+            </div>
+        </section>
+    
+        <section class="UpcomingTrips">
+            <h4>UPCOMING REFILLS SNEAK PEAK</h4>
+            <h2 class="h2">Take A Look At Some Of Our <br/>Refills</h2>
+            <div class="Trips">
+                <div class="IndTrip">
+                    <img src="assets/blossom-eyeshadow-blush-refill.jpg" width="250px"/>
+                    <h3>BLOSSOM EYESHADOW / BLUSH REFILL</h3>
+                    <p>R66.00</p>
+                    
+                </div>
+    
+                <div class="IndTrip">
+                    <img src="assets/fire-eyeshadow-refill.jpg" width="250px"/>
+                    <h3>FIRE EYESHADOW REFILL</h3>
+                    <p>R66.00</p>
+                    
+                </div>
+    
+                <div class="IndTrip">
+                    <img src="assets/light-peach-eyeshadow-refill.jpg" width="250px"/>
+                    <h3>L PEACH EYESHADOW REFILL</h3>
+                    <p>R66.00</p>
+                    
+                </div>
+    
+                <div class="IndTrip">
+                    <img src="assets/glow-eyeshadow-refill.jpg" width="250px"/>
+                    <h3>GLOW EYESHADOW REFILL</h3>
+                    <p>R66.00</p>
+                    
+                </div>
+    
+            </div>
+            <button class="button" type="button" onclick="location.href='pages/Flights.html';">Pre Order Now</button>
+        </section>
+    
+        <a href="#" class="BackToTop">
+            <span class="material-symbols-outlined">
+                keyboard_double_arrow_up
+                </span>
+        </a>
+    
+  <div class="container">
+    <h1>Activate my button</h1>
+    <p id="output"></p>
+    <button id="activateButton" class="btn btn-warning">Activate</button>
+  </div>
+
+  <script>
+    document.getElementById("activateButton").addEventListener("click", function() {
+      let condition = true;
+      
+      
+      if (condition) {
+        let output = '';
+        
+        
+        for (let i = 1; i <= 5; i++) {
+          output += i + '<br>';
+        }
+        
+        document.getElementById("output").innerHTML = output;
+      } else {
+        document.getElementById("output").innerHTML = 'Condition is false';
+      }
+    });
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>

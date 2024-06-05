@@ -1,0 +1,609 @@
+body {
+    margin: 0;
+    font-family: Poppins;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+  }
+
+h2 {
+    font-size: 36px;
+}
+
+@font-face {
+    font-family: "PorterSans";
+    src: url("../assets/Fonts/porter_sans_block/porter-sans-inline-block-webfont.ttf");
+}
+
+.TopNav {
+    overflow: hidden;
+    background-color: #ffffff88;
+    position: fixed;
+    width: 95%;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 70px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.TopNav a {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    text-decoration: none;
+    font-size:14px;
+}
+
+.SearchContainer {
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.SearchContainer input {
+    border: none;
+}
+
+
+.TopNavRight a, li{
+    display: inline-block;
+    padding: 0px 5px;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+.TopNav a:hover {
+    color: black;
+}
+
+.TopNav a.active {
+    color: #c652c6;
+}
+
+.backgroundImage{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    background-image: url(../assets/homePageHeader.png)
+   
+    }
+
+    .flexbox p{
+    display: inline-block;
+
+    }
+
+    .button {
+    color: rgb(255, 255, 255);
+    background-color: #ff0000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 300px;
+        height: 300px;
+    }
+
+    .HeaderContainer {
+        background-image: url(../assets/background.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: flex-start; 
+        align-items: baseline;  
+        flex-direction: column-reverse;  
+        align-content: space-around;
+        padding: 5%;
+    }
+
+    .HeaderContainer h1 {
+        font-family: "PorterSans";
+        color: #ff0000;
+        font-size: 42px;
+    }
+
+    .HeaderContainer h3 {
+        color: #3C0062;
+    }
+
+    .FeaturedTrip {
+        background-color: #ab976d;
+        height: 72vh;
+        display: flex;
+        padding: 5%;
+    }
+
+
+    .OurShuttles {
+        color: #c652c6;
+        height: 90vh;
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 5%;
+    }
+
+    .LeftImage {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .RightContent {
+        width: 50%;
+        padding: 10% 2.5%;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: space-between; 
+        align-items: flex-start; 
+        flex-direction: column;
+    }
+
+    .RightContentTwo {
+        width: 50%;
+        padding: 10% 2.5%;
+        display: flex;
+        justify-content: space-between; 
+        align-items: flex-start; 
+        flex-direction: column;
+    }
+
+    .RightContent {
+        color: white !important;
+    }
+
+    .RightContent button {
+        padding: 20px 60px;
+        border-radius: 10px;
+        border: none;
+        background-color: #ff0000;
+        color: white;
+        font-weight: bold;
+    }
+
+    .RightContent button:hover {
+        color: black;
+    }
+
+    .RightContentTwo {
+        color: rgb(0, 0, 0);
+    }
+
+    h4 {
+        color: #c652c6;
+    }
+
+    .UpcomingTrips {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ab976d;
+        height: 100vh;
+        color: white;
+    }
+
+    .h2 {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .IndTrip {
+        width: 300px;
+        text-align: center;
+        padding: 5px 5px;
+    }
+
+     .button {
+        padding: 20px 60px;
+        border-radius: 10px;
+        border: none;
+        background-color: #c652c6;
+        color: white;
+        font-weight: bold;
+        align-content: center;
+    }
+
+    .button:hover {
+        color: black;
+    }
+
+    .Trips {
+        display: flex;
+    }
+
+    .Footer {
+        background-color: #ffffff;
+        height: 50vh;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        flex-direction: row; 
+        flex-wrap: nowrap; 
+        align-content: space-around;
+
+    }
+
+    .FooterContainer {
+        display: flex;
+    }
+
+    .FooterContainer {
+    margin: 0px 115px;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .Logo { 
+    padding: 70px 55px;
+    margin: 70px 55px;
+    }
+
+    .Company {
+    padding: 70px 55px;
+    margin: 70px 55px;
+    }
+
+    .NavLinks {
+    display: flex;
+    justify-content: space-between; 
+    align-items: baseline;
+    flex-direction: column; 
+    flex-wrap: nowrap; 
+    align-content: space-around;
+    text-decoration: none;
+    }
+
+    .NavLinks a:hover {
+        color: black;
+    }
+
+    .SocialMediaLinks {
+    padding: 70px 55px;
+    margin: 70px 55px;
+    }
+
+    .Icons {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+    align-content: space-around;
+    }
+
+    .Line {
+        width: 100%;
+        color: #575757;
+    }
+
+    .bottomNavLeft {
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    }
+
+    .bottomNavLeft p1 {
+    text-align: left;
+    }
+
+    .bottomNavLeft p2 {
+        text-align: right;
+        }
+
+
+    .Header h1 {
+        font-family: "PorterSans";
+        color: white;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+
+        background-image: url(../assets/headerbackBack.png);
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: flex-start;  
+        flex-direction: column-reverse;  
+        align-content: space-around;
+        padding: 5%;
+    }
+
+    .backgroundImage{
+        width: 500px;
+        height: 500px;
+        text-align: center;
+        background-image: url(../assets/headerbackBack.png)
+        }
+
+        .About {
+            background-color: white;
+            height: 90vh;
+            display: flex;
+            padding: 10% 2.5%;
+            justify-content: space-between; 
+            align-items: flex-start; 
+            flex-direction: row;
+            margin: 0px 80px;
+        }
+
+        .RightImage {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .LeftContent {
+        width: 50%;
+        padding: 10% 2.5%;
+        display: flex;
+        justify-content: space-between; 
+        align-items: flex-start; 
+        flex-direction: column;
+        }
+
+        .Info {
+            margin: 50px;
+            padding: 0px 30px;
+            height: 800px;
+            display: flex;
+            width: 100%;
+        }
+
+        .Socials {
+        flex-direction: column;
+        padding: 0 4em;
+        }
+
+        .IconsTwo {
+        display: flex;
+        padding: 70px; 
+        align-items: center; 
+        flex-direction: row; 
+        flex-wrap: nowrap; 
+        align-content: space-around;
+        }
+
+        .Insert {
+        display: flex;
+        justify-content: space-between; 
+        flex-direction: row;
+        padding: 5px 0px;
+        }
+
+        .flexRight{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 0 4em;
+        }
+
+        .formContainer{
+            width: 50%;
+            padding: 20px 30px;
+        }
+
+        .formContainer h1{
+            color: white;
+            font-size: 11px;
+        }
+
+        #contact{
+            background-image: url(../assets/formBack.png);
+            background-size: cover;
+            background-position: right;
+            padding: 2em 4em;
+            width: 500px;
+            height: 750px;
+            margin: 50px 0;
+            border-radius: 40px;
+        }
+
+        #contact h2{
+            color: #ffffff;
+            display: block;
+        }
+
+        #contact input, #contact textarea, #contact button{
+            font-size: 14px;
+            font-weight: 400;
+            }
+
+            fieldset{
+                border: medium none !important;
+                margin: 0 0 10px;
+                min-width: 100%;
+                width: 100%;
+                padding: 0;
+            }
+
+            #contact input, #contact textarea{
+                width: 100%;
+                border: 2px solid #ccc;
+                background-color: #f3f3f3eb;
+                margin: 0 0 5px;
+                padding: 10px;
+            }
+
+            #contact textarea{
+                height: 100px;
+                max-width: 100%;
+                resize: none;
+            }
+
+            #contact button{
+                cursor: pointer;
+                width: 125px;
+                border: none;
+                background-color: #ff0000;
+                color: #ffffff;
+                padding: 10px;
+                font-size: 14px;
+                border-radius: 10px;
+            }
+
+            #contact input:hover, #contact textarea:hover{
+                border: 2px solid #3C0062;
+            }
+            
+            #contact input:focus, #contact textarea:focus{
+                background-color: #75757590;
+            }
+            
+            #contact button:hover{
+                background-color: #3C0062;
+            }
+
+            .Nav {
+                overflow: hidden;
+                background-color: #ffffff88;
+                position: fixed;
+                width: 95%;
+                top: 10%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                height: 70px;
+                border-radius: 30px;
+                display: flex;
+                justify-content: space-between; 
+                align-items: center;
+                padding: 0px 40px;
+            }
+            
+            .Nav a {
+                color: rgb(111, 111, 111);
+                text-align: center;
+                text-decoration: none;
+                font-size: 17px;
+                text-decoration: none;
+                font-size:14px;
+            }
+            
+            .SearchBox {
+                background-color: white;
+                display: flex;
+                justify-content: space-between; 
+                align-items: center;
+                padding: 15px;
+                border-radius: 10px;
+                width: 250px;
+            }
+            
+            .SearchBox input {
+                border: none;
+            }
+            
+            
+            .TopNavigate a, li{
+                display: inline-block;
+                padding: 0px 5px;
+                border: none;
+                list-style: none;
+                text-decoration: none;
+            }
+            
+            .Nav a:hover {
+                color: black;
+            }
+            
+            .Nav a.active {
+                color: #ff0000;
+            }
+
+            .HeaderTwo h1 {
+                font-family: "PorterSans";
+                 color: white;
+                 text-align: center;
+                 align-items: center;
+                 align-content: center;
+                }
+
+            .backgroundImage{
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                background-image: url(../assets/headerbackBack.png)
+                }
+
+                .FiltersContainer {
+                    background-color: #3C0062;
+                    display: flex;
+                    justify-content: space-around; align-items: center;  flex-direction: row; flex-wrap: nowrap; align-content: space-between;
+                    height: 10vh;
+                }
+
+                .Default {
+                    width: 60px;
+                    height: 30px;
+                }
+
+                .Show {
+                    width: 30px;
+                    height: 30px;
+                }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+.BackToTop {
+    position: fixed;
+    bottom: 2rem;
+    right: 2em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c652c6;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+
+
+.BackToTop span{
+    color: #ffffff;
+    font-size: 3rem;
+    transition: 0.2s ease-out;
+}
+
+.BackToTop:hover {
+    background-color: #7a317a;
+}
+
+.BackToTop:hover span {
+transform: translateY(-4px);
+}
+
+
+.container {
+    align-items: center;
+    justify-content: center;
+}
